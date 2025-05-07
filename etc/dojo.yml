@@ -7,22 +7,21 @@ config:
   websiteUrl: "{{ helper('url').build('') }}"
   packages:
     - name: dijit
-      location: ../dijit
+      location: libraries/dijit
     - name: dstore
-      location: ../dstore
+      location: libraries/dstore
     - name: dgrid
-      location: ../dgrid
+      location: libraries/dgrid
     - name: put-selector
-      location: ../put-selector
+      location: libraries/put-selector
     - name: xstyle
-      location: ../xstyle
+      location: libraries/xstyle
     - name: dbootstrap
-      location: ../dbootstrap
+      location: libraries/dbootstrap
     - name: bootstrap
-      location: ../dojo-bootstrap
+      location: libraries/dojo-bootstrap
     - name: sb
-      location: ../../core/app/public/js/sb
+      location: core/app/public/js/sb
     - name: starbug
-      location: ../../core/app/public/js/starbug
-    - name: app
-      location: ../../app/public/js
+      location: core/app/public/js/starbug
+
