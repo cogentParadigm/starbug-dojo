@@ -6,6 +6,8 @@ config:
   theme: "{{ helper('css').getTheme() }}"
   websiteUrl: "{{ helper('url').build('') }}"
   packages:
+    - name: dojo
+      location: libraries/dojo
     - name: dijit
       location: libraries/dijit
     - name: dstore
