@@ -6,7 +6,7 @@ module.exports = (config) => {
   config.plugins.push(
     new DojoWebpackPlugin({
       async: true,
-      loaderConfig: require(path.join(config.context, "./var/etc/loaderConfig.js")),
+      loaderConfig: require(path.join(config.context, "./var/etc/dojo.profile.js")),
       locales: ["en"],
       loader: path.join(config.context, "./libraries/dist/dojo.js"),
       environment: {

@@ -1,7 +1,7 @@
 {
   "name": "starbug/dojo",
   "type": "starbug-module",
-  "description": "Starbug module for Dojo.",
+  "description": "Dojo module for Starbug.",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
